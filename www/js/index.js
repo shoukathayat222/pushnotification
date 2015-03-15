@@ -49,7 +49,7 @@ var app = {
 		var pushNotification = window.plugins.pushNotification;
 		//alert('here');
 		try{
-			pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"786204421500","ecb":"app.onNotificationGCM"});
+			pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"AIzaSyBEPvbPzY2ASv-U70yHhPaJG05NjFSvrfQ","ecb":"app.onNotificationGCM"});
 		}
 		catch(e){
 			alert(e);
